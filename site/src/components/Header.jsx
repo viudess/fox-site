@@ -2,8 +2,10 @@ import Navbar from "./Navbar"
 
 export default function Header() {
     return(
-    <div className="bg-white">
-        <Navbar />
-    </div>
+        <header className="bg-spectrum">
+            <Navbar />
+            <img src="../../public/banner.png" alt="" />
+        </header>
+        
     )
 }

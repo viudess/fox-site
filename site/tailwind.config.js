@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        'foxus': '#11101C'
+        'foxus': '#11101C',
+        'spectrum': "#E2EDFE",
+        'ph': "#54526D"
       }
     },
   },

@@ -1,11 +1,14 @@
 export default function Navbar() {
     return(
     <>
-        <ul className="flex justify-end flex-row space-x-10 text-foxus text-lg font-semibold p-10 mr-10">
-            <a href=""><li>Sobre nós</li></a>
-            <a href=""><li>Contato</li></a>
-            <a href=""><li>Novidades</li></a>
+    <div className="flex flex-row justify-between items-center">
+        <img src="../../public/logo.png" alt="" className="w-80 ml-10" />
+        <ul className="flex justify-end flex-row text-foxus text-2xl font-bold p-6 space-x-16 mr-4">
+            <li><a href="#sobre">Sobre nós</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#novas">Novidades</a></li>
         </ul>
+    </div>
     </>
     )
 }
