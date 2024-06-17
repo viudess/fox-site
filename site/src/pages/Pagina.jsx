@@ -1,4 +1,5 @@
 import Cards from "./Cards"
+import Forms from "./Forms"
 
 export default function Pagina() {
     return(
@@ -25,20 +26,7 @@ export default function Pagina() {
                 </div>
                 <Cards />
 
-                <div className="flex justify-center mt-32" id="contato">
-                    <h1 className="text-6xl">Contate-nos</h1>
-                </div>
-                <div className="flex justify-center mt-16">
-                    <form action="" className="flex flex-col w-8/12">
-                        <input type="text" placeholder="Nome" className="bg-foxus placeholder:text-ph mb-10 border-b-8 border-spectrum py-2 focus:outline-none text-3xl rounded-b-md"/>
-                        <input type="email" placeholder="E-mail" className="bg-foxus placeholder:text-ph mb-10 border-b-8 border-spectrum py-2 focus:outline-none text-3xl rounded-b-md"/>
-                        <input type="text" placeholder="Mensagem" className="bg-foxus placeholder:text-ph mb-10 border-b-8 border-spectrum py-2 focus:outline-none text-3xl rounded-b-md"/>
-                        <div className="flex justify-center mt-10">
-                            <button className="px-16 py-4 bg-spectrum text-foxus font-bold rounded-full focus:outline-none text-4xl">Enviar</button>
-                        </div>
-                    </form>
-                    
-                </div>
+                <Forms />
 
                 <div className="flex justify-center mt-32" id="novas">
                     <h1 className="text-6xl">Seja o primeiro a saber</h1>
