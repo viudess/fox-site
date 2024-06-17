@@ -5,7 +5,7 @@ export default function Cards(){
                 <img src="../../public/ana.png" alt="" className="w-40 h-40 rounded-full mb-3"/>
                 <h1 className="mb-3 text-2xl text-spectrum">Ana Oliveira</h1>
                 <div className="flex flex-row space-x-3">
-                    <img src="../../public/icon insta.png" alt="" className="w-12"/>
+                    <a href="https://www.instagram.com/foxpectrum/?utm_source=ig_web_button_share_sheet"><img src="../../public/icon insta.png" alt="" className="w-12"/></a>
                     <img src="../../public/Group 2 1.png" alt="" className="w-12"/>
                 </div>
             </div>
@@ -14,7 +14,7 @@ export default function Cards(){
                 <img src="../../public/viudes.png" alt="" className="w-40 h-40 rounded-full mb-3"/>
                 <h1 className="mb-3 text-2xl text-spectrum">Eduardo Viudes</h1>
                 <div className="flex flex-row space-x-3">
-                    <img src="../../public/icon insta.png" alt="" className="w-12"/>
+                    <a href="https://www.instagram.com/foxpectrum/?utm_source=ig_web_button_share_sheet"><img src="../../public/icon insta.png" alt="" className="w-12"/></a>
                     <img src="../../public/Group 2 1.png" alt="" className="w-12"/>
                 </div>
             </div>
@@ -23,7 +23,7 @@ export default function Cards(){
                 <img src="../../public/julia.png" alt="" className="w-40 h-40 rounded-full mb-3"/>
                 <h1 className="mb-3 text-2xl text-spectrum">Julia Leal</h1>
                 <div className="flex flex-row space-x-3">
-                    <img src="../../public/icon insta.png" alt="" className="w-12"/>
+                    <a href="https://www.instagram.com/foxpectrum/?utm_source=ig_web_button_share_sheet"><img src="../../public/icon insta.png" alt="" className="w-12"/></a>
                     <img src="../../public/Group 2 1.png" alt="" className="w-12"/>
                 </div>
             </div>
@@ -32,7 +32,7 @@ export default function Cards(){
                 <img src="../../public/laura.png" alt="" className="w-40 h-40 rounded-full mb-3"/>
                 <h1 className="mb-3 text-2xl text-spectrum">Laura Kalybatas</h1>
                 <div className="flex flex-row space-x-3">
-                    <img src="../../public/icon insta.png" alt="" className="w-12"/>
+                    <a href="https://www.instagram.com/foxpectrum/?utm_source=ig_web_button_share_sheet"><img src="../../public/icon insta.png" alt="" className="w-12"/></a>
                     <img src="../../public/Group 2 1.png" alt="" className="w-12"/>
                 </div>
             </div>
@@ -41,7 +41,7 @@ export default function Cards(){
                 <img src="../../public/pedro.png" alt="" className="w-40 h-40 rounded-full mb-3"/>
                 <h1 className="mb-3 text-2xl text-spectrum">Pedro Araújo</h1>
                 <div className="flex flex-row space-x-3">
-                    <img src="../../public/icon insta.png" alt="" className="w-12"/>
+                    <a href="https://www.instagram.com/foxpectrum/?utm_source=ig_web_button_share_sheet"><img src="../../public/icon insta.png" alt="" className="w-12"/></a>
                     <img src="../../public/Group 2 1.png" alt="" className="w-12"/>
                 </div>
             </div>
@@ -50,7 +50,7 @@ export default function Cards(){
                 <img src="../../public/yannie.png" alt="" className="w-40 h-40 rounded-full mb-3"/>
                 <h1 className="mb-3 text-2xl text-spectrum">Yannie Yshin</h1>
                 <div className="flex flex-row space-x-3">
-                    <img src="../../public/icon insta.png" alt="" className="w-12"/>
+                    <a href="https://www.instagram.com/foxpectrum/?utm_source=ig_web_button_share_sheet"><img src="../../public/icon insta.png" alt="" className="w-12"/></a>
                     <img src="../../public/Group 2 1.png" alt="" className="w-12"/>
                 </div>
             </div>

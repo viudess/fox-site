@@ -63,7 +63,7 @@ export default function Pagina() {
                     <h1 className="text-6xl">Nos siga nas redes sociais</h1>
                 </div>
                 <div className=" flex justify-center mt-20 mb-32">
-                <img src="../../public/icon insta.png" alt="" className="w-36" />
+                <a href="https://www.instagram.com/foxpectrum/?utm_source=ig_web_button_share_sheet"><img src="../../public/icon insta.png" alt="" className="w-36" /></a>
                 </div>
             </div>
     )
