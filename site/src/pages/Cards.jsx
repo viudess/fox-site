@@ -30,7 +30,7 @@ export default function Cards(){
 
             <div className="flex flex-col items-center">
                 <img src="../../public/laura.png" alt="" className="w-40 h-40 rounded-full mb-3"/>
-                <h1 className="mb-3 text-2xl text-spectrum">Laura kalybatas</h1>
+                <h1 className="mb-3 text-2xl text-spectrum">Laura Kalybatas</h1>
                 <div className="flex flex-row space-x-3">
                     <img src="../../public/icon insta.png" alt="" className="w-12"/>
                     <img src="../../public/Group 2 1.png" alt="" className="w-12"/>
