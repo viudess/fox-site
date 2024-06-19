@@ -1,6 +1,6 @@
 export default function Sobre() {
     return(
-        <div>
+        <div className="flex flex-col mt-32" id="sobre">
             <div className="flex justify-center">
                 <h1 className="text-6xl">Sobre nós</h1>
             </div>

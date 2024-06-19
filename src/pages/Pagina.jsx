@@ -1,16 +1,16 @@
-import Cards from "./Cards"
+import Equipe from "./Equipe"
 import Forms from "./Forms"
 import Novidades from "./Novidades"
 import Sobre from "./Sobre"
 
 export default function Pagina() {
     return(
-            <div className="flex flex-col text-spectrum mt-32" id="sobre">
+            <div className="text-spectrum ">
                 <Sobre />
                 <div className="flex justify-center mt-32">
                     <h1 className="text-6xl">Nossa equipe</h1>
                 </div>
-                <Cards />
+                <Equipe />
                 <Forms />
                 <Novidades />
                 <div className="flex justify-center mt-32">

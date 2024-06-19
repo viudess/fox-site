@@ -53,7 +53,7 @@ export default function Forms() {
                         value={email}
                         className="bg-foxus placeholder:text-ph mb-10 border-b-8 border-spectrum py-2 focus:outline-none text-3xl rounded-b-md"/>
 
-                        <textarea
+                        <input
                         type="text" 
                         placeholder="Mensagem" 
                         onChange={(e) => setMessage(e.target.value)}
