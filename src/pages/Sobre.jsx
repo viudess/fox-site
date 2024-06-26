@@ -2,11 +2,15 @@ export default function Sobre() {
     return(
         <>
         <div className="flex flex-col md:pt-32 pt-5">
-            <div className="flex justify-center pt-10" id="sobre">
-                <h1 className="md:text-6xl text-5xl md:w-full w-11/12 text-center">Sobre nós</h1>
+            <div>
+                <div className="flex justify-center md:pt-0 pt-10" id="sobre">
+                    <h1 className="hidden md:block md:text-6xl text-5xl md:w-full w-11/12 text-center">Sobre nós</h1>
+                    <h1 className="md:hidden md:text-6xl text-5xl md:w-full w-11/12 text-center">Foxpectrum</h1>
+                </div>
             </div>
+            
             <div className="flex justify-center">
-                <div className="md:text-[40px] md:mt-16 md:w-9/12 text-start mt-8 text-xl w-11/12 md:leading-tight space-y-5 text-spectrum/40">
+                <div className="md:text-[30px] md:mt-16 md:w-10/12 text-start mt-10 text-xl w-11/12 md:leading-tight space-y-5 text-spectrum/40">
                     <p>
                         A foxpectrum é uma startup desenvolvida por um grupo de estudantes do ensino médio técnico.
                     </p>

@@ -1,7 +1,7 @@
 function cards(foto, nome, linkInsta, linkedIn) {
     return (
             <div className="flex flex-col items-center mt-7">
-                <img src={foto} alt="" className="md:size-40 size-32 rounded-full mb-3"/>
+                <img src={foto} alt="" className="md:size-36 size-32 rounded-full mb-3"/>
                 <h1 className="mb-3 md:text-2xl text-center text-xl text-spectrum">{nome}</h1>
                 <div className="flex flex-row space-x-3">
                     <a href={linkInsta}><img src="../../public/icon insta.png" alt="" className="w-12"/></a>
@@ -57,7 +57,7 @@ export default function Equipe(){
         <div className="flex justify-center md:mt-32 mt-16">
             <h1 className="md:text-6xl text-5xl text-center">Nossa equipe</h1>
         </div>
-          <div className="md:flex md:flex-row md:space-x-6 md:justify-center md:mt-24 mt-10 grid grid-cols-2">
+          <div className="xl:flex xl:flex-row xl:space-x-6 xl:justify-center xl:mt-16 mt-10 grid md:grid-cols-3 grid-cols-2">
             {time.map(membro => 
               cards(membro.foto, membro.nome, membro.linkInsta, membro.linkedIn)
             )}
