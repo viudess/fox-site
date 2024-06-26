@@ -3,11 +3,11 @@ import Banner from "../../public/banner.png"
 
 export default function Header() {
     return(
-        <header >
-            <div className="">
+        <header className="flex flex-col justify-center">
+            <div>
                 <Navbar /> 
             </div>
-            <img className="hidden md:block" src={Banner} alt="" />
+            <img className="hidden md:block w-full" src={Banner} alt="" />
         </header>
         
     )
