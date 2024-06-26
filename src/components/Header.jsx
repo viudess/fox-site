@@ -3,8 +3,10 @@ import Banner from "../../public/banner.png"
 
 export default function Header() {
     return(
-        <header className="bg-spectrum">
-            <Navbar />
+        <header >
+            <div className="">
+                <Navbar /> 
+            </div>
             <img className="hidden md:block" src={Banner} alt="" />
         </header>
         

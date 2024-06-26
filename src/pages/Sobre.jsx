@@ -1,9 +1,9 @@
 export default function Sobre() {
     return(
         <>
-        <div className="flex flex-col md:pt-32 pt-5">
+        <div className="flex flex-col md:pt-24">
             <div>
-                <div className="flex justify-center md:pt-0 pt-10" id="sobre">
+                <div className="flex justify-center md:pt-10 pt-10" id="sobre">
                     <h1 className="hidden md:block md:text-6xl text-5xl md:w-full w-11/12 text-center">Sobre nós</h1>
                     <h1 className="md:hidden md:text-6xl text-5xl md:w-full w-11/12 text-center">Foxpectrum</h1>
                 </div>
