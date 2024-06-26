@@ -17,7 +17,7 @@ export default function Navbar() {
           </button>
         </div>
         
-        <ul className={`flex-col md:flex md:flex-row md:items-center text-foxus text-xl md:text-2xl font-bold space-y-4 md:space-y-0 md:space-x-16 ${isOpen ? 'flex' : 'hidden'} md:flex`}>
+        <ul className={`flex-col md:flex md:flex-row md:items-center text-foxus text-xl md:text-2xl font-bold md:space-x-16 ${isOpen ? 'flex' : 'hidden'} md:flex`}>
           <li><a href="#sobre">Sobre nós</a></li>
           <li><a href="#contato">Contato</a></li>
           <li><a href="#novas">Novidades</a></li>

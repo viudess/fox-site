@@ -33,8 +33,8 @@ export default function Forms() {
 
     return(
         <div>
-            <div className="flex justify-center md:pt-32 pt-20" id="contato">
-                    <h1 className="md:text-6xl text-5xl md:w-full w-11/12 text-center">Contate-nos</h1>
+            <div className="flex justify-center md:pt-24 pt-10">
+                    <h1 className="md:text-6xl text-5xl md:w-full w-11/12 text-center md:pt-10 pt-10" id="contato">Contate-nos</h1>
                 </div>
                 <div className="flex justify-center mt-16">
                     <form action="" onSubmit={sendEmail} className="flex flex-col md:w-8/12 w-11/12">

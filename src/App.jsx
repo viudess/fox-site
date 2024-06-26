@@ -5,7 +5,7 @@ import Pagina from "./pages/Pagina"
 function App() {
   return (
     <>
-    <main className="bg-foxus">
+    <main className="bg-foxus font-offside">
       <Header />
       <Pagina />
       <Footer />

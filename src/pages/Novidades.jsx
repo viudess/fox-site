@@ -27,12 +27,12 @@ export default function Novidades() {
 
     return(
         <div>
-            <div className="flex justify-center md:pt-32 pt-20" id="novas">
-                    <h1 className="md:text-6xl text-5xl w-full text-center md:font-normal font-bold">Seja o primeiro a saber</h1>
+            <div className="flex justify-center md:pt-24 pt-10">
+                    <h1 className="md:text-6xl text-[40px] md:w-full w-11/12 text-center md:pt-10 pt-10" id="novas">Seja o primeiro a saber</h1>
             </div>
 
             <div className="flex justify-center">
-                <div className="md:text-[40px] text-3xl md:mt-16 mt-10 md:w-9/12 w-11/12 text-center md:leading-tight">
+                <div className="md:text-[40px] text-[25px] md:mt-16 mt-10 md:w-9/12 w-11/12 text-center md:leading-tight text-spectrum/40">
                     <p>
                     Registre seu e-mail para receber novidades sobre o lançamento do app!
                     </p>
