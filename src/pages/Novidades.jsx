@@ -27,19 +27,19 @@ export default function Novidades() {
 
     return(
         <div>
-            <div className="flex justify-center mt-32" id="novas">
-                    <h1 className="text-6xl">Seja o primeiro a saber</h1>
+            <div className="flex justify-center md:pt-32 pt-20" id="novas">
+                    <h1 className="md:text-6xl text-5xl w-full text-center md:font-normal font-bold">Seja o primeiro a saber</h1>
             </div>
 
             <div className="flex justify-center">
-                <div className="text-[40px] mt-16 w-9/12 text-center">
+                <div className="md:text-[40px] text-3xl md:mt-16 mt-10 md:w-9/12 w-11/12 text-center md:leading-tight">
                     <p>
                     Registre seu e-mail para receber novidades sobre o lançamento do app!
                     </p>
                 </div>
             </div>
             <div className="flex justify-center mt-16">
-                <form action="" onSubmit={sendEmail} className="flex flex-col w-8/12">
+                <form action="" onSubmit={sendEmail} className="flex flex-col md:w-8/12 w-11/12">
                     <input 
                     type="email" 
                     placeholder="E-mail"

@@ -1,11 +1,12 @@
 export default function Sobre() {
     return(
-        <div className="flex flex-col mt-32" id="sobre">
+        <>
+        <div className="flex flex-col md:pt-32 pt-10" id="sobre">
             <div className="flex justify-center">
-                <h1 className="text-6xl">Sobre nós</h1>
+                <h1 className="md:text-6xl text-5xl md:w-full w-11/12 text-center">Sobre nós</h1>
             </div>
             <div className="flex justify-center">
-                <div className="text-[40px] mt-16 w-9/12 text-center">
+                <div className="md:text-[40px] md:mt-16 md:w-9/12 text-center mt-8 text-2xl w-10/12 md:leading-tight">
                     <p>
                         A foxpectrum é uma startup desenvolvida por um grupo de estudantes do ensino médio técnico.
                     </p>
@@ -18,5 +19,7 @@ export default function Sobre() {
                 </div>
             </div>
         </div>
+        </>
+        
     )
 }

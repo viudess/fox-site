@@ -33,11 +33,11 @@ export default function Forms() {
 
     return(
         <div>
-            <div className="flex justify-center mt-32" id="contato">
-                    <h1 className="text-6xl">Contate-nos</h1>
+            <div className="flex justify-center md:pt-32 pt-20" id="contato">
+                    <h1 className="md:text-6xl text-5xl md:w-full w-11/12 text-center">Contate-nos</h1>
                 </div>
                 <div className="flex justify-center mt-16">
-                    <form action="" onSubmit={sendEmail} className="flex flex-col w-8/12">
+                    <form action="" onSubmit={sendEmail} className="flex flex-col md:w-8/12 w-11/12">
 
                         <input 
                         type="text" 

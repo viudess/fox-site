@@ -4,7 +4,7 @@ export default function Header() {
     return(
         <header className="bg-spectrum">
             <Navbar />
-            <img src="../../public/banner.png" alt="" />
+            <img className="hidden md:block" src="../../public/banner.png" alt="" />
         </header>
         
     )
