@@ -2,6 +2,7 @@ import Equipe from "./Equipe"
 import Forms from "./Forms"
 import Novidades from "./Novidades"
 import Sobre from "./Sobre"
+import ImgInsta from "../../public/icon insta.png"
 
 export default function Pagina() {
     return(
@@ -14,7 +15,7 @@ export default function Pagina() {
                     <h1 className="md:text-6xl text-[40px] md:w-full w-11/12 text-center">Nos siga nas redes sociais</h1>
                 </div>
                 <div className=" flex justify-center mt-20 pb-32">
-                    <a href="https://www.instagram.com/foxpectrum/?utm_source=ig_web_button_share_sheet"><img src="../../public/icon insta.png" alt="" className="w-36" /></a>
+                    <a href="https://www.instagram.com/foxpectrum/?utm_source=ig_web_button_share_sheet"><img src={ImgInsta} alt="" className="w-36" /></a>
                 </div>
             </div>
     )

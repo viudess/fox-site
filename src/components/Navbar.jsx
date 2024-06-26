@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Logo from "../../public/logo.png"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -6,7 +7,7 @@ export default function Navbar() {
   return (
     <>
       <div className="flex flex-row justify-between items-center p-4 md:p-6">
-        <img src="../../public/logo.png" alt="Logo" className="w-40 md:w-80" />
+        <img src={Logo} alt="Logo" className="w-40 md:w-80" />
         
         <div className="lg:hidden">
           <button
