@@ -44,24 +44,24 @@ export default function Forms() {
                         placeholder="Nome" 
                         onChange={(e) => setName(e.target.value)}
                         value={name}
-                        className="bg-foxus placeholder:text-ph mb-10 border-b-8 border-spectrum py-2 focus:outline-none text-3xl rounded-b-md"/>
+                        className="bg-foxus placeholder:text-ph mb-10 border-b-8 border-tpg py-2 focus:outline-none text-3xl rounded-b-md"/>
 
                         <input 
                         type="email" 
                         placeholder="E-mail"
                         onChange={(e) => setEmail(e.target.value)}
                         value={email}
-                        className="bg-foxus placeholder:text-ph mb-10 border-b-8 border-spectrum py-2 focus:outline-none text-3xl rounded-b-md"/>
+                        className="bg-foxus placeholder:text-ph mb-10 border-b-8 border-tpg py-2 focus:outline-none text-3xl rounded-b-md"/>
 
                         <input
                         type="text" 
                         placeholder="Mensagem" 
                         onChange={(e) => setMessage(e.target.value)}
                         value={message}
-                        className="bg-foxus placeholder:text-ph mb-10 border-b-8 border-spectrum py-2 focus:outline-none text-3xl rounded-b-md"/>
+                        className="bg-foxus placeholder:text-ph mb-10 border-b-8 border-tpg py-2 focus:outline-none text-3xl rounded-b-md"/>
 
                         <div className="flex justify-center mt-10">
-                            <button type='submit' value="enviar" className="px-16 py-4 bg-spectrum text-foxus font-bold rounded-full focus:outline-none text-4xl">Enviar</button>
+                            <button type='submit' value="enviar" className="px-16 py-4 bg-tpg text-foxus font-bold rounded-full focus:outline-none text-4xl">Enviar</button>
                         </div>
 
                     </form>

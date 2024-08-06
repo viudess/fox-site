@@ -10,9 +10,11 @@ export default {
         'offside': ['Offside', 'sans-serif']
       },
       colors: {
-        'foxus': '#11101C',
-        'spectrum': "#E2EDFE",
-        'ph': "#54526D"
+        'foxus': '#F0F0F0',
+        'spectrum': "#D6C8E1",
+        'ph': "#54526D",
+        'nav': "#11101C",
+        'tpg': "#8456B7"
       }
     },
   },

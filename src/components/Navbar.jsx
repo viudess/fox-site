@@ -19,7 +19,7 @@ export default function Navbar() {
           </button>
         </div>
         <div className='hidden lg:block'>
-            <ul className={`flex flex-row items-center text-foxus text-2xl font-bold space-x-16`}>
+            <ul className={`flex flex-row items-center text-nav text-2xl font-bold space-x-16`}>
                 <li><a href="#sobre">Sobre nós</a></li>
                 <li><a href="#contato">Contato</a></li>
                 <li><a href="#novas">Novidades</a></li>
@@ -27,7 +27,7 @@ export default function Navbar() {
         </div>
       </div>
       <div className="lg:hidden bg-[#a5adb9] px-2">
-            <ul className={`py-2 flex flex-row justify-center items-center text-foxus md:text-xl text-lg font-bold space-x-8 ${isOpen ? 'flex' : 'hidden'} lg:flex`}>
+            <ul className={`py-2 flex flex-row justify-center items-center text-nav md:text-xl text-lg font-bold space-x-8 ${isOpen ? 'flex' : 'hidden'} lg:flex`}>
                 <li><a href="#sobre">Sobre nós</a></li>
                 <li><a href="#contato">Contato</a></li>
                 <li><a href="#novas">Novidades</a></li>

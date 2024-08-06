@@ -10,7 +10,7 @@ export default function Sobre() {
             </div>
             
             <div className="flex justify-center">
-                <div className="md:text-[30px] md:mt-16 md:w-10/12 text-start mt-10 text-xl w-11/12 md:leading-tight space-y-5 text-spectrum/40">
+                <div className="md:text-[30px] md:mt-16 md:w-10/12 text-start mt-10 text-xl w-11/12 md:leading-tight space-y-5 text-tpg/90">
                     <p>
                         A foxpectrum é uma startup desenvolvida por um grupo de estudantes do ensino médio técnico.
                     </p>

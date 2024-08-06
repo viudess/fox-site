@@ -3,11 +3,13 @@ import Forms from "./Forms"
 import Novidades from "./Novidades"
 import Sobre from "./Sobre"
 import ImgInsta from "../../public/icon insta.png"
+import Projeto from "./Projeto"
 
 export default function Pagina() {
     return(
-            <div className="text-spectrum ">
+            <div className="text-tpg">
                 <Sobre />
+                <Projeto />
                 <Equipe />
                 <Forms />
                 <Novidades />

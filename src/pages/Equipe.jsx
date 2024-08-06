@@ -12,7 +12,7 @@ function cards(foto, nome, linkInsta, linkedIn) {
     return (
             <div className="flex flex-col items-center mt-7">
                 <img src={foto} alt="" className="md:size-36 size-32 rounded-full mb-3"/>
-                <h1 className="mb-3 md:text-2xl text-center text-xl text-spectrum">{nome}</h1>
+                <h1 className="mb-3 md:text-2xl text-center text-xl text-tpg">{nome}</h1>
                 <div className="flex flex-row space-x-3">
                     <a href={linkInsta}><img src={ImgInsta} alt="" className="w-12"/></a>
                     <a href={linkedIn}><img src={ImgLinkedin} alt="" className="w-12"/></a>
