@@ -11,7 +11,7 @@ export default function Projeto() {
             </div>
             <div className="flex flex-row mx-10">
                 <div className="flex justify-center space-x-48">
-                    <div className="lg:text-[30px] lg:mt-16 lg:w-4/12 text-start mt-10 text-xl w-11/12 lg:leading-tight space-y-5 text-tpg/90">
+                    <div className="md:text-[30px] md:mt-16 lg:w-4/12 md:w-11/12 text-start mt-10 text-xl md:leading-tight space-y-5 text-tpg/90">
                         <p>
 
                             A versão beta do nosso aplicativo contará com funções como mood tracker, agenda compartilhada, to-do, organização e monitoração de medicamentos e um botão de emergência para crises, facilitando a organização da pessoa neurodivergente e de sua família, e também permitindo um monitoramento mais amplo sobre suas crises. O app também inclui implementação da linguagem C.A.A e acesso rápido a histórias socias.
@@ -22,6 +22,9 @@ export default function Projeto() {
                         <Carrossel />
                     </div>
                 </div>
+            </div>
+            <div className="lg:hidden flex justify-center mt-16">
+                <Carrossel />
             </div>
         </div>
         </>
