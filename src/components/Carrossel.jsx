@@ -25,7 +25,7 @@ export default function Carrossel() {
     return (
         <>
         <div className="flex items-center justify-center">
-            <button onClick={goToPrevSlide} className="bg-tpg text-white p-2 rounded-full mr-5 h-10">
+            <button onClick={goToPrevSlide} className="bg-tpg dark:bg-dmnav text-foxus dark:text-nav p-2 rounded-full mr-5 h-10">
             &#9664;
             </button>
             <div className="lg:w-8/12 w-7/12 overflow-hidden">
@@ -37,7 +37,7 @@ export default function Carrossel() {
             ))}
             </div>
             </div>
-            <button onClick={goToNextSlide} className="bg-tpg text-white p-2 rounded-full ml-5 h-10">
+            <button onClick={goToNextSlide} className="bg-tpg dark:bg-dmnav text-foxus dark:text-nav p-2 rounded-full ml-5 h-10">
             &#9654;
             </button>
         </div>

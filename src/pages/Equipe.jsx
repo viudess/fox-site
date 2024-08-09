@@ -1,5 +1,7 @@
 import ImgInsta from "../../public/icon insta.png";
+import ImgInsta2 from "../../public/icon insta2.png";
 import ImgLinkedin from "../../public/Group 2 1.png";
+import ImgLinkedin2 from "../../public/icon linkedin.png";
 import Ana from "../../public/ana.png";
 import Viudes from "../../public/viudes.png";
 import Julia from "../../public/julia.png";
@@ -12,10 +14,12 @@ function cards(foto, nome, linkInsta, linkedIn) {
     return (
             <div className="flex flex-col items-center mt-7">
                 <img src={foto} alt="" className="md:size-36 size-32 rounded-full mb-3"/>
-                <h1 className="mb-3 md:text-2xl text-center text-xl text-tpg">{nome}</h1>
+                <h1 className="mb-3 md:text-2xl text-center text-xl text-tpg dark:text-dmnav">{nome}</h1>
                 <div className="flex flex-row space-x-3">
-                    <a href={linkInsta}><img src={ImgInsta} alt="" className="w-12"/></a>
-                    <a href={linkedIn}><img src={ImgLinkedin} alt="" className="w-12"/></a>
+                    <a className="dark:hidden" href={linkInsta}><img src={ImgInsta} alt="" className="w-12"/></a>
+                    <a className="hidden dark:block" href={linkInsta}><img src={ImgInsta2} alt="" className="w-12"/></a>
+                    <a className="dark:hidden" href={linkedIn}><img src={ImgLinkedin} alt="" className="w-12"/></a>
+                    <a className="hidden dark:block" href={linkedIn}><img src={ImgLinkedin2} alt="" className="w-12"/></a>
                 </div>
             </div>
     )
