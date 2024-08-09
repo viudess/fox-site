@@ -32,23 +32,23 @@ export default function Novidades() {
             </div>
 
             <div className="flex justify-center">
-                <div className="md:text-[40px] text-[25px] md:mt-16 mt-10 md:w-9/12 w-11/12 text-center md:leading-tight text-tpg/90">
+                <div className="md:text-[30px] text-[25px] md:mt-16 mt-10 md:w-9/12 w-11/12 text-center md:leading-tight text-black/90">
                     <p>
                     Registre seu e-mail para receber novidades sobre o lançamento do app!
                     </p>
                 </div>
             </div>
             <div className="flex justify-center mt-16">
-                <form action="" onSubmit={sendEmail} className="flex flex-col md:w-8/12 w-11/12">
+                <form action="" onSubmit={sendEmail} className="flex flex-col md:w-7/12 w-11/12">
                     <input 
                     type="email" 
                     placeholder="E-mail"
                     onChange={(e) => setEmail(e.target.value)}
                     value={email} 
-                    className="bg-foxus placeholder:text-ph mb-10 border-b-8 border-tpg py-2 focus:outline-none text-3xl rounded-b-md"/>
+                    className="bg-foxus placeholder:text-ph placeholder:text-2xl mb-10 border-b-8 border-tpg py-1 focus:outline-none text-3xl rounded-b-md"/>
 
-                    <div className="flex justify-center mt-10">
-                        <button type="submit" className="px-16 py-4 bg-tpg text-foxus font-bold rounded-full focus:outline-none text-4xl">Registrar</button>
+                    <div className="flex justify-center mt-3">
+                        <button type="submit" className="px-7 py-2 bg-tpg text-foxus font-bold rounded-full focus:outline-none text-3xl">Registrar</button>
                     </div>
                 </form>
             </div>
