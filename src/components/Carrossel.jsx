@@ -28,7 +28,7 @@ export default function Carrossel() {
             <button onClick={goToPrevSlide} className="bg-tpg text-white p-2 rounded-full mr-5 h-10">
             &#9664;
             </button>
-            <div className="w-8/12 overflow-hidden">
+            <div className="lg:w-8/12 w-7/12 overflow-hidden">
             <div className="flex transition-transform duration-500" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
             {slides.map((slide) => (
                 <div key={slide.id} className="w-full flex-shrink-0">

@@ -8,8 +8,8 @@ export default function Projeto() {
           Nosso projeto
         </h1>
       </div>
-      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-center w-11/12 lg:w-10/12 md:mt-16 mt-10">
-        <div className="md:text-[30px] text-start text-xl md:leading-tight text-nav/90 lg:w-1/2">
+      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-center w-11/12 md:w-10/12 md:mt-16 mt-10">
+        <div className="md:text-[30px] md:text-start text-justify text-xl md:leading-tight text-nav/90 lg:w-1/2">
           <p>
             A versão beta do nosso aplicativo contará com funções como mood
             tracker, agenda compartilhada, to-do, organização e monitoração
@@ -24,7 +24,7 @@ export default function Projeto() {
           <Carrossel />
         </div>
       </div>
-      <div className="lg:hidden flex justify-center mt-10">
+      <div className="lg:hidden flex justify-center lg:mt-10 md:mt-24 mt-10">
         <Carrossel />
       </div>
     </div>
