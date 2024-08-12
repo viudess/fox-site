@@ -1,17 +1,14 @@
-// DarkModeToggle.js
 import { useState, useEffect } from 'react';
 
 const DarkModeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  useEffect(() => {
-    // Verifica o tema preferido quando o componente é montado
-    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    setIsDarkMode(localStorage.getItem('darkMode') === 'true' || prefersDarkMode);
-  }, []);
+  //useEffect(() => {
+    //const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    //setIsDarkMode(localStorage.getItem('darkMode') === '' || prefersDarkMode);
+  //}, []);
 
   useEffect(() => {
-    // Adiciona ou remove a classe 'dark' no <html> dependendo do estado
     if (isDarkMode) {
       document.documentElement.classList.add('dark');
       localStorage.setItem('darkMode', 'true');
