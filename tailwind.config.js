@@ -17,7 +17,7 @@ export default {
         'ph': "#54526D",
         'nav': "#11101C",
         'tpg': "#8456B7",
-        'dmnav': "#B6DBF2"
+        'dmnav': "#698ABB"
 
       }
     },
