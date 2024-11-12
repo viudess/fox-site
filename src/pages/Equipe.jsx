@@ -32,7 +32,7 @@ export default function Equipe(){
           foto: Ana,
           nome: "Ana Oliveira",
           linkInsta: "https://www.instagram.com/nanagoround_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-          linkedIn: ""
+          linkedIn: "https://www.linkedin.com/in/ana-clara-de-oliveira-nascimento-533a24271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         },
         {
           foto: Viudes,
@@ -50,7 +50,7 @@ export default function Equipe(){
           foto: Laura,
           nome: "Laura Kalybatas",
           linkInsta: "https://www.instagram.com/laurakalybatas/?utm_source=ig_web_button_share_sheet",
-          linkedIn: ""
+          linkedIn: "https://br.linkedin.com/in/laura-kalybatas-77baaa321"
         },
         {
           foto: Pedro,
@@ -62,7 +62,7 @@ export default function Equipe(){
           foto: Yannie,
           nome: "Yannie Yshin",
           linkInsta: "https://www.instagram.com/4luv7_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-          linkedIn: ""
+          linkedIn: "https://www.linkedin.com/in/yannie-kang-613032322"
         }
       ];
 
